@@ -11,6 +11,22 @@ const unidade = prompt(
 
 )
 
+switch (unidade){
+    case "1":
+        alert("Resultado: " + medida + "m = " + medida * 1000 + "mm")
+    case "2":
+        alert("Resultado: " + medida + "m = " + medida * 100 + "cm")
+    case"3":
+        alert("Resultado: " + medida + "m = " + medida * 10 + "dm") 
+    case "4":
+        alert("Resultado: " + medida + "m = " + medida / 10 + "dam")     
+    case"5":
+        alert("Resultado: " + medida + "m = " + medida / 100 + "hm") 
+    case"6":
+        alert("Resultado: " + medida + "m = " + medida / 1000 + "km")
+    default("Opção inválida.")             
+}
+
 
 
 
